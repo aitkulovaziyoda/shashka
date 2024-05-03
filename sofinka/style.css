@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(0, 162, 255);
+}
+.father{
+    display: flex;
+}
+.father2{
+    display: flex;
+}
+.father3{
+    display: flex;
+}
+.father4{
+    display: flex;
+}
+.father5{
+    display: flex;
+}
+.father6{
+    display: flex;
+}
+.father7{
+    display: flex;
+}
+.father8{
+    display: flex;
+}
+.father .box:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+.father .box:nth-child(even){
+    background-color: rgb(255, 251, 251);
+}
+.father2 .box:nth-child(odd){
+    background-color: rgb(240, 239, 239);
+}
+.father2 .box:nth-child(even){
+    background-color: rgb(0, 0, 0);
+}.father3 .box:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+.father3 .box:nth-child(even){
+    background-color: rgb(255, 250, 250);
+}
+.father4 .box:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+.father4 .box:nth-child(even){
+    background-color: rgb(0, 0, 0);
+}
+.father5 .box:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+.father5 .box:nth-child(even){
+    background-color: rgb(255, 254, 254);
+}
+.father6 .box:nth-child(odd){
+    background-color: rgb(255, 252, 252);
+}
+.father6 .box:nth-child(even){
+    background-color: rgb(0, 0, 0);
+}
+.father7 .box:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+.father7 .box:nth-child(even){
+    background-color: rgb(252, 250, 250);
+}
+.father8 .box:nth-child(even){
+    background-color: rgb(0, 0, 0);
+}
+
